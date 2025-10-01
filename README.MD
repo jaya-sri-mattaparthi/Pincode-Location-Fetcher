@@ -35,6 +35,8 @@ A simple web app to fetch location details (Post Office, District, State, Countr
   - Location: Chennai GPO, Chennai, Tamil Nadu, India  
   - Map centered on the location  
   - List of nearby tourist attractions (if available)
+##Deployment
+https://pincode-location-fetcher.vercel.app/
 
 ---
 
