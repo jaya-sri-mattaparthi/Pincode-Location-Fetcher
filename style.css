@@ -1,0 +1,115 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eee3be, #fda085);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 60px;
+    overflow-x: hidden;
+  }
+  
+  /* Main heading */
+  .main-heading {
+    font-size: 32px;
+    color: #f3e6e6;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  
+  /* Box container */
+  .container {
+    background:rgb(240, 207, 161);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    overflow-y: auto;
+  }
+  
+  /* Label */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Input box */
+  input[type="text"] {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #fda085;
+    box-shadow: 0 0 5px #fda085aa;
+  }
+  
+  /* Button */
+  button {
+    padding: 10px 20px;
+    background: #f6a623;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #e98e0f;
+  }
+  
+  /* Result output */
+  #result {
+    margin-top: 20px;
+    text-align: left;
+    background: #fff0d6;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 15px;
+    color: #444;
+  }
+  /* Most Visited Places Section */
+#result h3 {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #333;
+  border-bottom: 2px solid #f6a623;
+  padding-bottom: 5px;
+}
+
+#result ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#result li {
+  background: #fff8e7;
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border-left: 5px solid #f6a623;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+#result li:hover {
+  transform: translateX(5px);
+  background: #ffe7bd;
+}
