@@ -29,6 +29,8 @@ A simple web app to fetch location details (Post Office, District, State, Countr
 2. Enter a 6-digit Indian pincode
 3. Click "Get Location" to see the result, map, and nearby attractions
 
+##Deployment
+
 ## ✅ Example
 - **Input:** `600001`
 - **Output:**  
